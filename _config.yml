@@ -9,11 +9,11 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Li Yang(杨立)"
+title                    : "首页"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://yangli8953.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : "https://yangli8953.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "yangli8953/yangli8953.github.io"
 
@@ -23,8 +23,8 @@ repository               : "yangli8953/yangli8953.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "杨立"
-  pronouns         : # example: "she/her"  
+  name             : "Li Yang(杨立)"
+  pronouns         : "男"  
   bio              : ""
   location         : "北京，中国"
   employer         : "中国科学院软件研究所"
