@@ -25,7 +25,6 @@ Educational background
 
 Work experience
 ======
-
 社会兼职
 ------
 2024-12-24-今,IEEE Transactions on Software Engineering, Reviewer
