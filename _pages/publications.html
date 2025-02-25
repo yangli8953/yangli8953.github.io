@@ -5,32 +5,42 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
+Publications
+======
+发表论文
+------
+（1） DeepCRCEval: Revisiting the Evaluation of Code Review Comment Generation, ETAPS 2025 International Joint Conferences On Theory and Practice of Software(CCF B), 2025, 第 6 作者  通讯作者
+（2） Exploring the Impact of Code Review Factors on the Code Review Comment Generation, Automated Software Engineering(SCI/CCF B/中科院软件工程类期刊1区), 2024, 第 4 作者  通讯作者
+（3） 代码审查自动化研究综述（中文CCF A）, 软件学报, 2024, 第 2 作者  通讯作者
+（4） Dependency-Aware Method Naming Framework with Generative Adversarial Sampling, 2024 International Joint Conference on Neural Networks (IJCNN 2024) CCF C, 2024, 第 4 作者  通讯作者
+（5） DccGraph: Detecting Criminal Communities with Augmented Criminal Network Construction and Graph Neural Network, 2023 International Joint Conference on Neural Networks (IJCNN 2023) CCF C, 2023, 第 2 作者  通讯作者
+（6） Who are the Money Launderers? Money Laundering Detection on Blockchain via Mutual Learning-Based Graph Neural Network, 2023 International Joint Conference on Neural Networks (IJCNN 2023) CCF C, 2023, 第 4 作者  通讯作者
+（7） Mining the Relationship between Object-Relational Mapping Performance Anti-patterns and Code Clones, The 35th International Conference on Software Engineering & Knowledge Engineering(SEKE2023) CCF C, 2023, 第 3 作者  通讯作者
+（8） PSCVFinder: A Prompt-Tuning Based Framework for Smart Contract Vulnerability Detection, The 34th IEEE International Symposium on Software Reliability Engineering(ISSRE 2023) CCF B, 2023, 第 4 作者  通讯作者
+（9） LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning, The 34th IEEE International Symposium on Software Reliability Engineering(ISSRE 2023) CCF B, 2023, 第 3 作者  通讯作者
+（10） Automating Method Naming with Context-Aware Prompt-Tuning, The 31st IEEE/ACM International Conference on Program Comprehension (ICPC 2023) CCF B, 2023, 第 3 作者  通讯作者
+（11） STPChain: a Crowdsourced Software Engineering Method for Software Traceability and Fine-grained Privacy Based on Blockchain, The 46th IEEE Computers, Software, and Applications Conference (COMPSAC 2022) CCF C, 2022, 第 2 作者  通讯作者
+（12） AUGER: Automatically Generating Review Comments with Pre-training Models, The 30th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering(ESEC/FSE 2022) CCF A, 2022, 第 2 作者  通讯作者
+（13） DeepRelease: Language-agnostic Release Notes Generation from Pull Requests of Open-source Software(CCF C), The 28th Asia-Pacific Software Engineering Conference(APSEC 2021), 2021, 第 3 作者  通讯作者
+（14） Enabling Language Representation with Knowledge Graph and Structured Semantic Information, 2021 International Conference on Computer Communication and Artificial Intelligence, 2021, 第 2 作者  通讯作者
+（15） AUIF: An Adaptive User Interface Framework for Multiple Devices, The 15th Conference on Application of Image and Graphics Technology, 2020, 第 3 作者
+（16） 面向机器学习系统的需求建模与决策选择, Requirements Modeling and Decision-making for Machine Learning Systems, 计算机科学, 2020, 第 1 作者
+（17） 基于区块链的保险产品推荐模型, Insurance Product Recommendation Model Based on Blockchain, 计算机系统应用, 2019, 第 1 作者
+（18） Multi- attending Memory Network for Modeling Multi-turn Dialogue, 2019 International Conference on Big Data and Artificial Intelligence, BDAI2019, 2019, 第 2 作者  通讯作者
+（19） Model-driven Dynamic Visualization of Spatiotemporal Data in GIS, The 14th Conference on Application of Image and Graphics Technology, 2019, 第 2 作者  通讯作者
+（20） 面向聊天机器人的多注意力记忆网络, Memory Network with Multi-Head Attention for Chatbot, 计算机系统应用, 2019, 第 2 作者
+（21） A Human-in-the-Loop Method for Developing Machine Learning Applications, 2019 6th International Conference on Systems and Informatics (ICSAI), 2019, 第 1 作者
+（22） 基于精准计算的人工智能应用方法研究, Research on Application of Artificial Intelligence Based on Precise Computing, 信息技术与标准化, 2018, 第 2 作者
+（23） 软件发布机制体系结构研究, Architecture for software distribution, 计算机工程与设计, 2010, 第 3 作者
+（24） 支持动态标准的政务元数据管理的研究与应用, Research and application of E-government metadata management system with dynamic standard, 计算机工程与设计, 2008, 第 2 作者
+（25） 基于网络信息资源共享的软件开发方法研究与应用, Research and application of network information resource sharing-based software development method, 计算机应用研究, 2008, 第 2 作者
+（26） 面向服务的知识发现体系结构研究与实现, 计算机学报, 2005, 第 1 作者
+（27） 基于语义距离的K-最近邻分类方法, K-Nearest Neighbor Classification Based on Semantic Distance, 软件学报, 2005, 第 1 作者
+（28） An Effective Two-stage Neural Network Model and its Application on Flood Loss Prediction(SCI), ISNN 2005, LNCS 3498,Springer-Verlag, 2005, 第 1 作者
+（29） 保险洪灾损失预测模型, Insurance Flood Loss Prediction Model, 计算机辅助设计与图形学学报, 2005, 第 1 作者
+（30） OLAP系统中回退功能的设计与实现, Design and Implementation of the Backward Function in OLAP Systems, 计算机工程与科学, 2004, 第 3 作者
+（31） 基于Cache的可回退OLAP系统研究与实现, The Research and Implementation of a Backable OLAP System Based on Cache, 计算机工程与应用, 2003, 第 1 作者
+（32） 基于MVC模式的交互式分类规则发现模型, 2003全国软件与应用学术会议(NASAC)论文集, 2003, 第 1 作者
+（33） 用FTP传输实现版本管理中的自动更新, 网管员世界, 2002, 第 2 作者
 
 
