@@ -13,5 +13,4 @@ redirect_from:
 
 精准计算作为一种应对现实世界复杂问题的方法，着眼于人工智能、大数据与应用软件的融合，具有研究领域融入能力、可迭代性、逐渐精化和依概率收敛等特征，旨在解决大数据时代面临的不确定性和复杂性，通过建立可靠的智能模型和算法，使得计算结果更为准确、可控，从而为决策者提供可信的依据。
 
-“精准计算与大数据”专栏征稿启事
-https://hbkx.cbpt.cnki.net/portal/journal/portal/client/news/551192a9c2b6dd04c0b574a0363755a9
+[“精准计算与大数据”专栏征稿启事](https://hbkx.cbpt.cnki.net/portal/journal/portal/client/news/551192a9c2b6dd04c0b574a0363755a9)
