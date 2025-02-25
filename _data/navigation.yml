@@ -9,12 +9,12 @@ main:
     url: /publications/
 
   - title: "Awards"
-    url: /talks/    
+    url: /awards/    
 
   - title: "Students"
-    url: /teaching/    
+    url: /students/    
     
   - title: "Research activities"
-    url: /portfolio/
+    url: /researchActivities/
       
   
