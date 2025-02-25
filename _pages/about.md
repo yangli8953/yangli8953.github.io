@@ -11,11 +11,9 @@ redirect_from:
 
 Recruitment
 ======
-招生专业
-083500-软件工程
+招生专业： 083500-软件工程
 
-招生方向
-智能化软件开发方法及质量保障
+招生方向： 智能化软件开发方法及质量保障
 
 Educational background
 ======
@@ -26,7 +24,6 @@ Educational background
 Work experience
 ======
 社会兼职
-------
 
 2024-12-24-今,IEEE Transactions on Software Engineering, Reviewer
 
