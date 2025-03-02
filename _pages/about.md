@@ -15,6 +15,7 @@ redirect_from:
 
 [“精准计算与大数据”专栏征稿启事](https://hbkx.cbpt.cnki.net/portal/journal/portal/client/news/551192a9c2b6dd04c0b574a0363755a9)
 
+2025年3月   served as ACL2025 Reviewer 
 2024年11月  学术论文"一种索引结构优化的检索增强生成技术在保险领域的交互应用研究" 被 河北省科学院学报 录用  
 2024年11月  学术论文"基于多模态知识的垂直行业领域精准计算实现方法研究" 被 河北省科学院学报 录用 
 
