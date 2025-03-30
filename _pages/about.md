@@ -15,6 +15,8 @@ redirect_from:
 
 [“精准计算与大数据”专栏征稿启事](https://hbkx.cbpt.cnki.net/portal/journal/portal/client/news/551192a9c2b6dd04c0b574a0363755a9)
 
+2025年03月  "Smart-LLaMA-DPO: Reinforced Large Language Model for Explainable Smart Contract Vulnerability Detection" was accepted by ISSTA 2025
+<br />
 2025年03月  Served as ACL2025 Reviewer 
 <br />
 2024年11月  学术论文"一种索引结构优化的检索增强生成技术在保险领域的交互应用研究" 被 河北省科学院学报 录用  
