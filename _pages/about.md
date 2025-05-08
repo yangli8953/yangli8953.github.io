@@ -15,6 +15,8 @@ redirect_from:
 
 [“精准计算与大数据”专栏征稿启事](https://hbkx.cbpt.cnki.net/portal/journal/portal/client/news/551192a9c2b6dd04c0b574a0363755a9)
 
+2025年05月  Awarded by MSR 2025 as Distinguished Reviewer
+<br />
 2025年05月  "Towards Practical Defect-Focused Automated Code Review" was accepted by ICML 2025 spotlight
 <br />
 2025年03月  "Smart-LLaMA-DPO: Reinforced Large Language Model for Explainable Smart Contract Vulnerability Detection" was accepted by ISSTA 2025
